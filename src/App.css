@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  color: #000;
+}
+
+.Answers-row {
+  display: block;
+}
+
+.App-content {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #000;
+}
+
+.Answers {
+  width: fill;
+  padding: 1% 0%;
+  background: #1e2d4b;
 }
 
 .App-logo {
@@ -9,14 +31,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
