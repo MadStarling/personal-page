@@ -1,7 +1,6 @@
 export default
     {
         name :'Gabriel Starling.',
-        contactEmail:'hello@chetanverma.com',
         abouttext: "Lover of art and science who sees in technology the perfect match amongst knowledge and creativity and believes that a software can change the whole world. Developer by both passion and occupation, I nurture great enthusiasm for all the ubiquitous computing potential and the inevitability of the IoT. Musician and geek during my free time.",
         aboutImage:'aboutPhoto.jpg',
         ShowAboutImage:true,
