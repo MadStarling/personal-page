@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import data from '../data.js';
 
 class Header extends Component {
     state = {  }
-    scrollToTop = () => {
-        scroll.scrollToTop();
-    };
     render() { 
         return (
         <div>
             <header>
-                <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
+                <h4>
+                    <Fade bottom cascade>{data.name}</Fade></h4>
             </header>
             <nav>
                 <ul>
