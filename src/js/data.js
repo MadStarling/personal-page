@@ -28,5 +28,23 @@ export default
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/gabriel-starling/'
         },
-        contactEmail: 'starling.damasio@gmail.com'
+        contactEmail: "starling.damasio@gmail.com",
+        home: {
+            message: "Hi, my name is Gabriel Starling and i\'m very happy to be here talking with you. So, what are you looking for?",
+            options: [
+                {
+                    text: "What can you tell me about yourself?",
+                    destination: "about"
+                }
+            ]
+        },
+        about: {
+            message: "Lover of art and science who sees in technology the perfect match amongst knowledge and creativity and believes that a software can change the whole world. Developer by both passion and occupation, I nurture great enthusiasm for all the ubiquitous computing potential and the inevitability of the IoT. Musician and geek during my free time.",
+            options: [
+                {
+                    text: "Okay, got it.",
+                    destination: "home"
+                }
+            ]
+        }
     }
